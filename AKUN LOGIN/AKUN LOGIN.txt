@@ -1,0 +1,7 @@
+admin	:
+username	=	umar
+password	=	123456
+
+user	:
+username	=	ikhsan
+password	=	123456
