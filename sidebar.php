@@ -7,7 +7,7 @@
 
         </div>
         
-        <div class="fas  ">hdrpnk <br> Farms</div>
+        <div class="fas  ">Hidroponik <br> Farm's</div>
       </a>
 
       <!-- Divider -->

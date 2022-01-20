@@ -74,6 +74,10 @@ $panen = mysqli_num_rows($sqlpanen);
 
 $sqlpenjualan = mysqli_query($con, "SELECT * FROM penjualan ");
 $penjualan = mysqli_num_rows($sqlpenjualan);
+
+$sqlkas = mysqli_query($con, "SELECT * FROM laba");
+$kas = mysqli_num_rows($sqlkas);
+
 ?>
 
 
@@ -125,6 +129,23 @@ $penjualan = mysqli_num_rows($sqlpenjualan);
                     <div class="col mr-2">
                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1"> Data Penjualan</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $penjualan;?></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1"> Saldo Kas</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $kas;?></div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
