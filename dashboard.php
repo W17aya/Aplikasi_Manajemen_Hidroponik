@@ -46,7 +46,7 @@
 
           <div class="row">
 
-  <!--     
+
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
@@ -62,7 +62,7 @@
                 </div>
               </div>
             </div>
--->
+
 <?php 
 include 'connection.php';
           
@@ -75,8 +75,10 @@ $panen = mysqli_num_rows($sqlpanen);
 $sqlpenjualan = mysqli_query($con, "SELECT * FROM penjualan ");
 $penjualan = mysqli_num_rows($sqlpenjualan);
 
-$sqlkas = mysqli_query($con, "SELECT * FROM laba");
+$sqlkas = mysqli_query($con, "SELECT * from laba");
 $kas = mysqli_num_rows($sqlkas);
+
+
 
 ?>
 
