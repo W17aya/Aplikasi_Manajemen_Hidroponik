@@ -7,7 +7,7 @@
 
         </div>
         
-        <div class="fas  ">Hidroponik <br> Farm's</div>
+        <div class="fas  ">Hidroponik</div>
       </a>
 
       <!-- Divider -->
