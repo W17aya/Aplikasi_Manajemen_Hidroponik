@@ -7,7 +7,7 @@
 
         </div>
         
-        <div class="fas  ">Hidroponik</div>
+        <div class="fas  ">Toko Online</div>
       </a>
 
       <!-- Divider -->
